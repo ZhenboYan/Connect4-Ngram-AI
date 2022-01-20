@@ -1,0 +1,14 @@
+(rule
+  (target final.zip)
+  (deps 
+    src/board.ml
+    src/lib.ml
+    src/dune
+    src/main.eml.ml
+    src/training.ml
+    src/dune
+    tests/tests.ml
+    tests/dune
+  )
+  (action
+    (run zip -R final.zip %{deps})))

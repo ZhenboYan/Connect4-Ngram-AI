@@ -1,0 +1,42 @@
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:0:Basic Lib Test:0:Invalid Chunks.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:0:Basic Lib Test:0:Invalid Chunks is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:0:Basic Lib Test:0:Invalid Chunks.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:0:Basic Lib Test:2:Invalid Split Last.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:0:Basic Lib Test:2:Invalid Split Last is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:0:Basic Lib Test:2:Invalid Split Last.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:0:Desome.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:0:Desome is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:0:Desome.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:2:N Gram.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:2:N Gram is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:2:N Gram.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:4:Merge Distribution.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:4:Merge Distribution is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:4:Merge Distribution.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:6:AI Move.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:6:AI Move is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:6:AI Move.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:8:History to Board.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:8:History to Board is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:8:History to Board.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:9:Winning Sequence.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:9:Winning Sequence is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:9:Winning Sequence.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:11:Player1 Second Move.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:11:Player1 Second Move is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:11:Player1 Second Move.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:1:new lib test:14:Test Get Last N Moves.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:1:new lib test:14:Test Get Last N Moves is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:1:new lib test:14:Test Get Last N Moves.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:2:Board tests:1:Game over complex.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:2:Board tests:1:Game over complex is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:2:Board tests:1:Game over complex.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:2:Board tests:3:Make move valid.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:2:Board tests:3:Make move valid is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:2:Board tests:3:Make move valid.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:2:Board tests:5:Set player.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:2:Board tests:5:Set player is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:2:Board tests:5:Set player.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Start test Assignment4 P1 & P2 Tests:2:Board tests:7:Invalid board.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: Test Assignment4 P1 & P2 Tests:2:Board tests:7:Invalid board is successful.
+2021-12-15T20:03:49+00:00 Zhenbos-MacBook-Pro.local#01 I: End test Assignment4 P1 & P2 Tests:2:Board tests:7:Invalid board.
