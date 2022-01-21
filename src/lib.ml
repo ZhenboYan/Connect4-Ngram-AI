@@ -219,4 +219,78 @@ let ai_move (history : (int * int) list) (last_n : int)
           | None -> ai_dist_move dist history
         else ai_dist_move dist history
       in
-      re_move 0
+      re_move 0      
+
+let empty =
+  [
+    [ 0; 0; 0; 0; 0; 0; 0 ];
+    [ 0; 0; 0; 0; 0; 0; 0 ];
+    [ 0; 0; 0; 0; 0; 0; 0 ];
+    [ 0; 0; 0; 0; 0; 0; 0 ];
+    [ 0; 0; 0; 0; 0; 0; 0 ];
+  ]
+
+let htb (history : (int * int) list) : int list list=
+  List.foldi history ~init:empty ~f:(fun i acc (j, k) ->
+      List.mapi acc ~f:(fun i1 x ->
+          if i1 = j then
+            List.mapi x ~f:(fun i2 y -> if i2 = k then (i % 2) + 1 else y)
+          else x))
+
+(* return the locations of where connect 3 is in, and check wheather connect could happen *)
+let connect3 (board : int list list) (curr_player: int): bool * (int * int) =
+  let horizontal board =
+    List.fold board ~init:false ~f:(fun acc x ->
+        acc
+        ||
+        match
+          List.fold x ~init:0 ~f:(fun acc y ->
+              if acc = 3 then 3 else if y = curr_player then acc + 1 else 0)
+        with
+        | 3 -> true
+        | _ -> false)
+  in
+  let vertical board =
+    let c = [ 0; 1; 2; 3; 4; 5; 6 ] in
+    List.fold c ~init:false ~f:(fun acc i ->
+        acc
+        ||
+        match
+          List.fold board ~init:0 ~f:(fun acc x ->
+              if acc = 3 then 3
+              else if List.nth_exn x i = curr_player then acc + 1
+              else 0)
+        with
+        | 3 -> true
+        | _ -> false)
+  in
+  let diagonal1 board =
+    List.foldi board ~init:false ~f:(fun i acc y ->
+        if i < 2 then acc
+        else
+          acc
+          || List.foldi y ~init:false ~f:(fun j acc2 x ->
+                 if j > 4 then acc2
+                 else
+                   acc2
+                   || x = curr_player
+                      && x = List.nth_exn (List.nth_exn board (i - 1)) (j + 1)
+                      && x = List.nth_exn (List.nth_exn board (i - 2)) (j + 2)
+                      && x = List.nth_exn (List.nth_exn board (i - 3)) (j + 3)))
+  in
+  let diagonal2 board =
+    List.foldi board ~init:false ~f:(fun i acc y ->
+        if i > 3 then acc
+        else
+          acc
+          || List.foldi y ~init:false ~f:(fun j acc2 x ->
+                 if j > 4 then acc2
+                 else
+                   acc2
+                   || x = curr_player
+                      && x = List.nth_exn (List.nth_exn board (i + 1)) (j + 1)
+                      && x = List.nth_exn (List.nth_exn board (i + 2)) (j + 2)
+                      && x = List.nth_exn (List.nth_exn board (i + 3)) (j + 3)))
+  in
+  ( horizontal board || vertical board || diagonal1 board || diagonal2 board,
+    curr_player )
